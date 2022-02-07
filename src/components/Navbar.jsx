@@ -1,11 +1,10 @@
 import React from 'react';
-import Logo from '../images/logo1.png';
 
 function Navbar() {
   return (
       <nav>
         <a href="#" className='logo'>
-            <img src={Logo} alt='logo'/>
+            <h2>Logo</h2>
         </a>
         <input className='menu-btn' type='checkbox' id='menu-btn'/>
         <label className='menu-icon' for='menu-btn'>

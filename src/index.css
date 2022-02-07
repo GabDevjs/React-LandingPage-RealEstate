@@ -30,8 +30,12 @@ input {
   border: none;
 }
 
-.logo img {
+.logo h2 {
   width: 120px;
+  margin-left: 2rem;
+  color: #fc9700;
+  font-weight: 900;
+  font-size: 1.7rem;
 }
 
 .header {
@@ -621,6 +625,12 @@ nav .menu-btn,
       display: block;
     }
 
+    .logo h2 {
+      width: 70px;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
     nav {
       justify-content: space-between;
       height: 65px;
@@ -629,14 +639,11 @@ nav .menu-btn,
     }
 
     .property {
-      background: none;
       font-size: 13px;
-      color: #000;
-      padding: 0px;
     }
 
     .logo img {
-      width: 70px;
+     
     }
 
     .menu {
